@@ -1,0 +1,149 @@
+/* PÁGINA HOME*/
+
+.backgroundpink {
+    background: url(./images/Fundo\ morango.jpeg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    display: inline;
+    margin: 20px;
+    padding: 10px;
+}
+
+#barra {
+    background-color: rgb(255, 252, 254);
+    width: 300px;
+    height: 1000px;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    float: left;
+
+}
+
+#avatar {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+  }
+
+#my-melody {
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+    position: absolute;
+    top:70%;
+}
+
+
+article {
+    float: left;
+    display: flex;
+    text-align: center;
+
+}
+
+#texto1 {
+    font-size: 70px;
+    font-family: 'Lora', serif;
+    margin: 40px;
+    color: rgb(255, 100, 160);
+    display: block;
+}
+
+#texto2 {
+    font-size: 25px;
+    margin: 40px;
+    color: white;
+    display: block;
+}
+
+#container-principal {
+    width: 2000px; 
+    height:1000px; 
+    margin:40px; 
+    background-color:rgb(255, 208, 222);
+}
+
+#link-active {
+    color: rgb(255, 132, 193);
+    font-family: 'Dancing Script', cursive;
+}
+
+#link {
+    color: rgb(255, 206, 230);
+    font-family: 'Dancing Script', cursive;
+}
+
+#email {
+    text-decoration: none;
+    color: white
+}
+
+#links-sociais {
+    float: left;
+    display:flex;
+    text-align:end;
+    position: absolute;
+    top:40%;
+    left:50%;
+}
+
+.icon-pink {
+    color: rgb(255, 100, 160);
+    padding: 10px;
+    font-size: 40px;
+}
+
+#my-melody-gif {
+    margin-top:80px;
+    width: 600px;
+    height: 500px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+/* PÁGINA CONHECIMENTOS */
+
+article h1 {
+    color: rgb(255, 100, 160);
+    font-family: 'Lora', serif;
+    font-size: 50px;
+    padding: 20px;
+}
+
+article p {
+    color: white;
+    font-size: 30px;
+    background-color: rgb(255, 180, 220);
+    border-radius: 50px;
+    padding: 15px;
+    margin: 10px;
+}
+
+div {
+    display: grid;
+    text-align: left;
+}
+
+#link:hover {
+    color: hotpink;
+}
+
+/* PÁGINA OBJETIVOS */
+
+article h3 {
+    color: rgb(255, 100, 160);
+    font-family: 'Lora', serif;
+    font-size: 40px;
+    padding: 20px;
+}
